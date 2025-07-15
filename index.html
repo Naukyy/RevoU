@@ -3,10 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My RevoU</title>
+    <title>TEST RevoU Bootcamp</title>
 </head>
 <body>
-    <h1>Hello</h1>
-    <h2>Im Nowkyy</h2>
+    <p style="color:red;">Hallo</p>
+    <hr/>
+    <p>Hi <br/> Nowkyy</p>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    <p>Aku <b>Kuat</b> Ea Tapi <i>boong</i> hehe 
+        <sub>Bawah</sub><sup>Atas</sup> </p>
+    <h1>Bullet Poin</h1>
+    <ul type="square">
+        <li>Jawa</li>
+        <li>Melayu</li>
+    </ul>
+    <h1>Angka Poin</h1>
+    <ol>
+        <li>Jawa</li>
+        <li>Melayu</li>
+    </ol>
+
+    <h1>Table</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>company</th>
+                <th>contact</th>
+                <th>country</th>
+            </tr>
+        </thead>
+        <body>
+            <tr>
+                <th>Jawa club</th>
+                <th>011</th>
+                <th>Java</th>
+            </tr>
+            <tr>
+                <TH>Ark</TH>
+                <th>012301</th>
+                <th>Ponti</th>
+            </tr>
+        </body>
+    </table>
+
+    <h1>Gambar</h1>
+    <img src="image/Cuplikan layar 2025-05-02 144648.png"/> 
+
+       <h2>Form Pendaftaran</h2>
+    <form action="" method="post">
+        <!-- Nama -->
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama" required><br><br>
+
+        <!-- Umur -->
+        <label for="umur">Umur:</label>
+        <input type="number" id="umur" name="umur" required><br><br>
+
+        <!-- Password -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <!-- Jenis Kelamin -->
+        <label for="jenis_kelamin">Jenis Kelamin:</label><br>
+        <input type="radio" id="laki" name="jenis_kelamin" value="Laki-laki" required>
+        <label for="laki">Laki-laki</label><br>
+        <input type="radio" id="perempuan" name="jenis_kelamin" value="Perempuan">
+        <label for="perempuan">Perempuan</label><br><br>
+
+        <!-- Komentar -->
+        <label for="comment">Komentar:</label><br>
+        <textarea id="comment" name="comment" rows="4" cols="50"></textarea><br><br>
+
+        <!-- Persetujuan Syarat dan Ketentuan -->
+        <label>
+            <input type="checkbox" name="syarat" required>
+            Saya setuju dengan <a href="#">syarat dan ketentuan</a>
+        </label><br><br>
+
+        <!-- Tombol Kirim -->
+        <button type="submit">Kirim</button>
+    </form>
 </body>
 </html>
